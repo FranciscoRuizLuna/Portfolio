@@ -1,0 +1,81 @@
+.academic{
+  margin-top: 100px;
+  background-color: #06143b;
+  border-radius: 10px;
+
+}
+
+.academic__container{
+ 
+  padding: 50px;
+}
+
+.academic__title{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8rem;
+  margin-bottom: 100px;
+  color: white;
+}
+
+
+.academic__list{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.academic__list__item{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 70px;
+  width: 700px;
+  /**border: 20px double rgb(0, 0, 0);
+  border-radius: 10px;**/
+  border-radius: 0.4em;
+  box-shadow: 0.3em 0.3em 0.7em #00000015;
+  transition: border 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border: rgb(255, 53, 53) 0.2em solid;
+}
+
+.academic__list__item:hover{
+  border: rgb(255, 53, 53) 0.5em solid;
+
+}
+
+.container__img{
+  background-color: rgb(255, 255, 255);
+  width: 660px;
+  height: 200px;
+  padding: .5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+.academic__list__item__img{
+  width: 200px;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+}
+
+.academic__list__item__title{
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 10px;
+  font-style:italic;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.academic__list__item__years{
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 0px;
+  font-size:large;
+  color: rgb(0, 0, 0);
+}

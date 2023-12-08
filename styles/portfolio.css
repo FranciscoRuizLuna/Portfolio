@@ -1,0 +1,93 @@
+.portfolio{
+  margin-top: 70px;
+}
+
+.portfolio__container{
+  padding: .5rem .5rem;
+}
+ 
+.portfolio__title{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8rem;
+}
+
+.portfolio__list{
+  display: flex;
+ justify-content: center;
+  list-style: none;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.portfolio__list__item{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  
+}
+
+
+
+.portfolio__list__item__img{
+  width: 350px;
+  height: 220px;
+  border: 5px outset rgba(0, 0, 0, 0.822);
+  border-radius: 20px;
+}
+
+.portfolio__list__item__title{
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 10px;
+  font-style:italic;
+  color: rgb(27, 26, 26);
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.portfolio__list__item__div{
+  display: flex;
+  
+  justify-content: space-between;
+}
+
+.portfolio__list__item__link{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.portfolio__list__item__button{
+  
+  width: 160px;
+  height: 50px;
+  background: linear-gradient(to top, #00154c, #12376e, #23487f);
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  
+  cursor: pointer;
+ 
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+
+.portfolio__list__item__button__button2{
+  width: 160px;
+  height: 50px;
+  background: linear-gradient(to top, #4c0000, #6e1212, #7f2323);
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  
+  cursor: pointer;
+ 
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  
+}
+
+button span{
+  font-size: 14px;
+  
+  letter-spacing: .2px;
+  font-family: 'Montserrat', sans-serif;
+
+}

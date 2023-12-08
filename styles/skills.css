@@ -1,0 +1,80 @@
+.skills__container {
+  margin-top: 50px;
+
+}
+
+.skills__title {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.skills__list__container {
+  margin-top: 32px;
+
+
+}
+
+.skills__list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+.skills__list__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 174px;
+  width: 174px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  border: 2px solid rgb(2, 2, 2);
+  border-radius: 15px;
+  color: #000;
+  transition-duration: .3s;
+}
+
+.skills__list__item:hover {
+  scale: 1.1;
+}
+
+.html:hover {
+  background-color: #f34a12;
+  transition-duration: .3s;
+}
+
+.css:hover {
+  background-color: #195fd7;
+  transition-duration: .3s;
+}
+
+.javascript:hover {
+  background-color: #f4f11f;
+  transition-duration: .3s;
+}
+
+.react:hover {
+  background-color: #78d5e8;
+  transition-duration: .3s;
+}
+
+.git:hover {
+  background-color: #dc4909;
+  transition-duration: .3s;
+}
+
+
+
+
+
+
+.skills__list__item__icon {
+  font-size: 80px;
+  margin-bottom: 10px;
+}
