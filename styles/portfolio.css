@@ -91,3 +91,12 @@ button span{
   font-family: 'Montserrat', sans-serif;
 
 }
+
+@media screen and (max-width:375px){
+
+  
+
+  .portfolio__list__item__img{
+    width: 310px;
+  }
+}

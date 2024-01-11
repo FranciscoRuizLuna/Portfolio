@@ -132,28 +132,21 @@
   color: rgba(156, 163, 175, 1);
 }
 
-.social-icons {
-  display: flex;
-  justify-content: center;
-}
 
-.social-icons .icon {
-  border-radius: 0.125rem;
-  padding: 0.75rem;
-  border: none;
-  background-color: transparent;
-  margin-left: 8px;
-}
 
-.social-icons .icon svg {
-  height: 1.25rem;
-  width: 1.25rem;
-  fill: #fff;
-}
 
-.signup {
-  text-align: center;
-  font-size: 0.75rem;
-  line-height: 1rem;
-  color: rgba(156, 163, 175, 1);
+
+
+
+
+@media screen and (max-width:375px){
+
+.input-group textarea{
+  resize: vertical;
+  max-height: 300px;
+}  
+
+.submit{
+  width: 40%;
+}
 }

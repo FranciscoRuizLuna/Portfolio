@@ -79,3 +79,14 @@
   font-size:large;
   color: rgb(0, 0, 0);
 }
+
+@media screen and (max-width:375px){
+
+
+  .academic__list__item{
+    width: 330px;
+  }
+  .container__img{
+    width: 310px;
+  }
+}

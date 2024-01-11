@@ -51,3 +51,31 @@
   transform-origin: left;
   transform: scaleX(1);
 }
+
+@media  screen and (max-width:375px){
+
+  .header{
+    display: flex;
+    width: 375px;
+
+  }
+
+  .link__logo{
+      width: 10px;
+  }
+
+  .logo{
+    width: 100px;
+  }
+   
+
+  .menu__link{
+    display: none;
+  }
+
+  .activo{
+    display: block;
+    font-size: 19px;
+  }
+  
+}

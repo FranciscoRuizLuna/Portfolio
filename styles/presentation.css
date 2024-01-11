@@ -127,3 +127,38 @@ padding: 61px 17px 61px 50px;
 .instagram:hover svg {
   fill: #c13584;
 }
+
+@media  screen and (max-width:375px){
+
+  .presentation__container{
+    flex-direction: column-reverse;
+    
+  }
+
+  .div__photo{
+    width: 375px;
+    padding: 10px;
+    padding-left: 60px;
+  }
+
+
+  .presentation__photo{
+    height: 250px;
+    width: 250px;
+    
+  }
+
+  .presentation__div{
+    padding:10px 10px 10px 60px;
+    
+  }
+
+  .presentation__title{
+    font-size: 20px;
+    text-align:justify,
+  }
+
+  .presentation__data{
+    font-size: 15px;
+  }
+}
