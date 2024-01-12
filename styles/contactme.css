@@ -139,7 +139,7 @@
 
 
 
-@media screen and (max-width:375px){
+@media screen and (max-width:430px){
 
 .input-group textarea{
   resize: vertical;
@@ -147,6 +147,6 @@
 }  
 
 .submit{
-  width: 40%;
+  width: 45%;
 }
 }

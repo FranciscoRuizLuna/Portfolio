@@ -52,20 +52,20 @@
   transform: scaleX(1);
 }
 
-@media  screen and (max-width:375px){
+@media  screen and (max-width:430px){
 
   .header{
     display: flex;
-    width: 375px;
+    width: 430px;
 
   }
 
   .link__logo{
-      width: 10px;
+      width: 20px;
   }
 
   .logo{
-    width: 100px;
+    width: 115px;
   }
    
 

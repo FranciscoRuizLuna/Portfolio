@@ -80,13 +80,13 @@
   color: rgb(0, 0, 0);
 }
 
-@media screen and (max-width:375px){
+@media screen and (max-width:430px){
 
 
   .academic__list__item{
-    width: 330px;
+    width: 380px;
   }
   .container__img{
-    width: 310px;
+    width: 330px;
   }
 }

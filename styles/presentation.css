@@ -128,7 +128,7 @@ padding: 61px 17px 61px 50px;
   fill: #c13584;
 }
 
-@media  screen and (max-width:375px){
+@media  screen and (max-width:430px){
 
   .presentation__container{
     flex-direction: column-reverse;
@@ -138,7 +138,7 @@ padding: 61px 17px 61px 50px;
   .div__photo{
     width: 375px;
     padding: 10px;
-    padding-left: 60px;
+    padding-left: 95px;
   }
 
 
@@ -149,7 +149,7 @@ padding: 61px 17px 61px 50px;
   }
 
   .presentation__div{
-    padding:10px 10px 10px 60px;
+    padding:10px 10px 10px 45px;
     
   }
 
