@@ -97,6 +97,6 @@ button span{
   
 
   .portfolio__list__item__img{
-    width: 380px;
+    max-width: 380px;
   }
 }

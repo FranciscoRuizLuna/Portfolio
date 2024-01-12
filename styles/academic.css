@@ -84,7 +84,7 @@
 
 
   .academic__list__item{
-    width: 380px;
+    max-width: 350px;
   }
   .container__img{
     width: 330px;
